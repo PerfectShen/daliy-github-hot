@@ -5,6 +5,7 @@ import time
 import hmac
 import hashlib
 import base64
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -71,27 +72,61 @@ def get_weibo_hot():
         return None
 
 def get_history_today():
-    """获取历史上的今天"""
+    """
+    获取历史上的今天 (稳定版 - 数据源: 百度百科)
+    """
     print("正在获取历史上的今天...")
-    # 使用一个公开的免费接口，或者直接爬取百度百科
-    # 这里使用 60s api 的历史接口 (如果失效可以换其他源)
-    url = "https://60s.viki.moe/v2/history" 
     try:
-        resp = requests.get(url, timeout=5)
-        data = resp.json()
+        # 1. 获取当前月、日
+        now = datetime.now()
+        month = now.strftime("%m") # 例如 "01"
+        day = now.strftime("%d")   # 例如 "01"
+        date_key = month + day     # 例如 "0101"
+
+        # 2. 请求百度百科官方接口 (按月存储的静态JSON，速度快且稳定)
+        url = f"https://baike.baidu.com/cms/home/eventsOnHistory/{month}.json"
         
-        if data.get('code') == 200:
-            events = data.get('data', [])
-            # 格式化一下
-            event_list = []
-            for item in events[:5]: # 取前5个大事件
-                event_list.append(f"📜 **{item}**")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        
+        resp = requests.get(url, headers=headers, timeout=5)
+        resp.encoding = 'utf-8' # 强制编码，防止中文乱码
+        all_data = resp.json()
+        
+        # 3. 定位到“今天”的数据
+        # 百度的数据结构是: { "01": { "0101": [ ...events... ] } }
+        today_events = all_data.get(month, {}).get(date_key, [])
+        
+        if not today_events:
+            return "**⏳ 历史上的今天**\n暂无数据"
+
+        # 4. 清洗和筛选数据
+        # 定义一个去除 HTML 标签的小函数
+        def clean_text(text):
+            text = re.sub(r'<.*?>', '', text) # 去掉 <a href...> 这种标签
+            text = text.replace('&nbsp;', ' ').strip()
+            return text
+
+        display_list = []
+        # 百度数据通常按年份排序。
+        # 策略：取最后 5 条（也就是离现在最近的年份），或者反转列表取最著名的
+        # 这里我们取倒数5条，通常是近代史，大家比较熟悉
+        for item in today_events[-5:]:
+            year = item.get('year')
+            title = clean_text(item.get('title'))
+            # 简单排版
+            display_list.append(f"📜 **{year}年**: {title}")
             
-            return "**⏳ 历史上的今天**\n" + "\n".join(event_list)
-        return None
-    except:
-        # 备用方案：简单的写死测试，实际建议换稳定API
-        return "**⏳ 历史上的今天**\n获取失败，请检查 API 源"
+        # 再反转一下，让最近的年份在最上面
+        display_list.reverse()
+
+        return f"**⏳ 历史上的今天 ({month}月{day}日)**\n" + "\n".join(display_list)
+
+    except Exception as e:
+        print(f"History Error: {e}")
+        # 返回错误信息，这样你能在飞书看到是哪里错了，而不是什么都没有
+        return f"**⏳ 历史上的今天**\n数据获取异常: {str(e)[:50]}"
 
 def send_to_feishu(content_list):
     if not FEISHU_WEBHOOK: return
