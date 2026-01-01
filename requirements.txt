@@ -2,3 +2,5 @@ requests
 feedparser
 akshare
 pandas
+beautifulsoup4
+lxml

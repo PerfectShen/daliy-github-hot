@@ -1,0 +1,23 @@
+name: Daily Trends Push
+
+on:
+  schedule:
+    # UTC 04:00 = 北京时间 12:00
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-trend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: pip install requests feedparser beautifulsoup4 lxml
+    - name: Run script
+      env:
+        FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+      run: python trend_bot.py
