@@ -1,0 +1,35 @@
+name: X (Twitter) Monitor
+
+on:
+  # 定时任务：每 4 小时运行一次 (UTC时间)
+  schedule:
+    - cron: '0 */4 * * *'
+  # 允许手动触发 (方便测试)
+  workflow_dispatch:
+
+jobs:
+  run-x-bot:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # 1. 拉取代码
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    # 2. 设置 Python 环境
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    # 3. 安装依赖 (注意：x_bot.py 需要 feedparser)
+    - name: Install dependencies
+      run: |
+        pip install requests feedparser
+
+    # 4. 运行脚本
+    - name: Run X Monitor
+      env:
+        FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+      run: python x_bot.py
