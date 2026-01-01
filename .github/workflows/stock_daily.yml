@@ -1,0 +1,51 @@
+name: Daily Stock Strategy & Record
+
+on:
+  schedule:
+    # 北京时间 9:30
+    - cron: '30 1 * * 1-5'
+  workflow_dispatch:
+
+# 【新增】必须给写入权限，否则无法保存 CSV
+permissions:
+  contents: write
+
+jobs:
+  run-stock-bot:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+      
+    - name: Run script
+      env:
+        FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+      run: python stock_bot.py
+      
+    # 【新增】将生成的 trade_history.csv 提交回仓库
+    - name: Commit and Push CSV
+      run: |
+        # 配置 GitHub 机器人身份
+        git config --global user.name "Stock Bot"
+        git config --global user.email "bot@github.com"
+        
+        # 尝试添加文件
+        git add trade_history.csv
+        
+        # 提交 (如果没有新数据就不提交，避免报错)
+        git commit -m "📈 Auto-update: Stock History Record" || echo "No changes to commit"
+        
+        # 推送
+        git push
