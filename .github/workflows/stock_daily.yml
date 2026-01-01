@@ -41,11 +41,20 @@ jobs:
         git config --global user.name "Stock Bot"
         git config --global user.email "bot@github.com"
         
-        # 尝试添加文件
-        git add trade_history.csv
-        
-        # 提交 (如果没有新数据就不提交，避免报错)
-        git commit -m "📈 Auto-update: Stock History Record" || echo "No changes to commit"
-        
-        # 推送
-        git push
+        # 【关键修改】先检查文件是否存在
+        if [ -f trade_history.csv ]; then
+          echo "✅ 发现 CSV 文件，准备提交..."
+          git add trade_history.csv
+          
+          # 检查是否有变动需要提交
+          if git diff --staged --quiet; then
+            echo "⚠️ 文件内容没有变化，跳过提交"
+          else
+            git commit -m "📈 Auto-update: Stock History Record"
+            git push
+            echo "🚀 推送成功！"
+          fi
+          
+        else
+          echo "⚠️ 今日无数据生成，未创建 trade_history.csv，跳过提交步骤。"
+        fi
