@@ -9,11 +9,20 @@ jobs:
   run-news:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v4
+    # 第一步：把代码拉下来
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    # 第二步：安装 Python 环境
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-    - run: pip install requests
+        
+    # 第三步：安装依赖库
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
     - name: Run script
       env:
         FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}

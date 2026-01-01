@@ -26,7 +26,7 @@ def get_crypto_price():
         "include_24hr_change": "true"
     }
     try:
-        # Coingecko 免费版有时候会限流，加个超时处理
+        # Coingecko 免费版有时候会限流，加个超时处理。
         resp = requests.get(url, params=params, timeout=5)
         if resp.status_code != 200:
             return None
