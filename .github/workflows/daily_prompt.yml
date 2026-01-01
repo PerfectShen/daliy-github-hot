@@ -38,3 +38,13 @@ jobs:
         FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
       run: python prompt_bot.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Action Bot"
+        git config --global user.email "action@github.com"
+        # 检查有没有新生成的 json 文件
+        git add prompts_history.json
+        # 如果有变动才提交，没变动不报错
+        git commit -m "Auto-update prompts data" || echo "No changes to commit"
+        git push

@@ -154,6 +154,40 @@ def send_to_feishu(content_list):
     except Exception as e:
         print(f"❌ 网络请求出错: {e}")
 
+def save_to_local(content_list):
+    """
+    将抓取到的 Prompt 追加保存到本地 JSON 文件中
+    """
+    file_path = "prompts_history.json"
+    
+    # 1. 如果文件不存在，创建一个空的列表
+    if not os.path.exists(file_path):
+        existing_data = []
+    else:
+        # 2. 如果文件存在，先读取旧数据
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+        except json.JSONDecodeError:
+            existing_data = []
+
+    # 3. 简单的去重逻辑（防止同一条数据存两遍）
+    # 我们用 URL 作为唯一标识
+    existing_urls = {item['url'] for item in existing_data}
+    new_items = [item for item in content_list if item['url'] not in existing_urls]
+
+    if new_items:
+        # 4. 追加新数据
+        # 把新数据放在最前面（倒序），方便查看最新
+        updated_data = new_items + existing_data
+        
+        # 5. 写入文件
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(updated_data, f, ensure_ascii=False, indent=2)
+        print(f"💾 已保存 {len(new_items)} 条新 Prompt 到 {file_path}")
+    else:
+        print("💾 没有新数据需要保存")
+
 if __name__ == "__main__":
     # 1. 抓取数据
     all_prompts = []
@@ -166,6 +200,9 @@ if __name__ == "__main__":
     
     # 2. 推送
     if all_prompts:
+        # 1. 先发飞书
         send_to_feishu(all_prompts)
+        # 2. 【新增】再存本地
+        save_to_local(all_prompts) 
     else:
         print("今日无数据抓取成功")
