@@ -1,6 +1,42 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "How are you all managing prompt libraries without ",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qkedie/how_are_you_all_managing_prompt_libraries_without/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I've been building and refining prompts for about a year now, and I've hit a wall with or..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "A Step-by-Step Learning Prompt That Forces Real Un",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qkp05e/a_stepbystep_learning_prompt_that_forces_real/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Most people don’t fail at learning because the topic is hard.</p> They fail because they ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Meta-prompts for reducing hallucinations in an AI ",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qkhrwn/metaprompts_for_reducing_hallucinations_in_an_ai/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Beyond telling an AI chatbot to “be accurate,” which meta-prompt patterns genuinely reduc..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 118413528)",
+    "url": "https://civitai.com/images/118413528",
+    "desc": "Prompt: A Lord of the Rings Gollum scene recreated with a blue-haired Gollum character (styled like Goku with spiky blue hair). ..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 118413527)",
+    "url": "https://civitai.com/images/118413527",
+    "desc": "Prompt: An anime-style illustration showing a red-haired Goku character sitting in a messy, cluttered bedroom at his computer de..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 118412129)",
+    "url": "https://civitai.com/images/118412129",
+    "desc": "Prompt: create an anime image of Peace sign tombstone Meme , where tombstone is Saiyan blue goku with text \"BANNED: LEADERBOARD ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "I reverse-engineered ChatGPT's \"reasoning\" and fou",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qjweoq/i_reverseengineered_chatgpts_reasoning_and_found/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Spent 3 weeks analysing ChatGPT's internal processing patterns. Found something that chan..."
