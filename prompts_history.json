@@ -1,6 +1,42 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "Improving consistency in AI chat through structure",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rcp1uf/improving_consistency_in_ai_chat_through/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I’ve been testing different ways to make AI chat responses more consistent over longer di..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "I built a Tony Robbins-style AI prompt that writes",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rcht2w/i_built_a_tony_robbinsstyle_ai_prompt_that_writes/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I've been trying to write motivational content with AI prompts, hoping to get past the ge..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Trouble Getting Image Sizing Correct",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rcztop/trouble_getting_image_sizing_correct/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Hello, all! I'm about to lose my mind while created title cards in my videos. Chat GPT ha..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 121932486)",
+    "url": "https://civitai.com/images/121932486",
+    "desc": "Prompt: lazypos, masterpiece, 8k, sharp focus, tack sharp, crisp edges, high microcontrast, HDR, raytracing, best quality, absur..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 121939704)",
+    "url": "https://civitai.com/images/121939704",
+    "desc": "Prompt: masterpiece, best quality, very aesthetic, ultra-HD, cinematic lighting, photorealistic, impressionism, high detail, dep..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 122011815)",
+    "url": "https://civitai.com/images/122011815",
+    "desc": "Prompt: Create an image of a woman, rendered in dramatic chiaroscuro against a vibrant red backdrop. The woman is primarily silh..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Built a prompt that roasts your business ideas (be",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rbsbjm/built_a_prompt_that_roasts_your_business_ideas/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Most prompts out there are just cheerleaders. This one is a sledgehammer. If your idea su..."
