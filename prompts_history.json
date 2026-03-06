@@ -1,6 +1,42 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "I've been using \"explain the tradeoffs\" instead of",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rl784l/ive_been_using_explain_the_tradeoffs_instead_of/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Stop asking ChatGPT to make decisions for you.</p> Ask it: <strong>&quot;What are the tra..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "I built a \"Difficult Email Decoder\" prompt that re",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rlhe2a/i_built_a_difficult_email_decoder_prompt_that/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">You know that feeling when an email lands and something about it just feels off, but you ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "A “RAG failure clinic” prompt for ChatGPT that bot",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rlhajt/a_rag_failure_clinic_prompt_for_chatgpt_that_both/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Most of the “my model got dumber” stories I see here are not actually model problems. The..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123196271)",
+    "url": "https://civitai.com/images/123196271",
+    "desc": "Prompt: 1girl, solo, lazypos, depth of field, cinematic lighting, volumetric lighting, bokeh, from below, anime coloring, delica..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123196270)",
+    "url": "https://civitai.com/images/123196270",
+    "desc": "Prompt: 1girl, solo, lazypos, depth of field, cinematic lighting, volumetric lighting, bokeh, (straight-on:1.4), anime coloring,..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123196252)",
+    "url": "https://civitai.com/images/123196252",
+    "desc": "Prompt: 1girl, solo, lazypos, depth of field, cinematic lighting, volumetric lighting, dutch angle, bokeh, looking at animal, an..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "How small structure tweaks improved my AI chatbot ",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rko3tl/how_small_structure_tweaks_improved_my_ai_chatbot/",
     "desc": "<!-- SC_OFF --><div class=\"md\">I’ve been experimenting with how structure affects AI chatbot output quality. Just adding..."
