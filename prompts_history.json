@@ -1,6 +1,42 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "I built a \"Conflict Autopsy\" prompt that dissects ",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rmk92b/i_built_a_conflict_autopsy_prompt_that_dissects/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I've replayed the same argument in my head for three days. You know the feeling, right? N..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Do you guys have a prompt that makes ChatGPT write",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rmawdd/do_you_guys_have_a_prompt_that_makes_chatgpt/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I often get assignments where the teacher asks us to write conversations in Spanish, Germ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Custom Instruction",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rm2tcp/custom_instruction/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">In ChatGPT/Claude custom instructions I added &quot;At the end of your messages create 3 ..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123321649)",
+    "url": "https://civitai.com/images/123321649",
+    "desc": "Prompt: <lora:Rembrandt Lighting style illu v1:0.61>..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123299037)",
+    "url": "https://civitai.com/images/123299037",
+    "desc": "Prompt: Semi-realism, ma1ma1helmes_b_illu,  (masterpiece, best quality, very aesthetic, amazing quality, absurdres, newest, simp..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 123300832)",
+    "url": "https://civitai.com/images/123300832",
+    "desc": "Prompt: 1970s occult folk fantasy aesthetic, painterly natural lighting A moss-covered stone shrine sits beside a mountain strea..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "I've been using \"explain the tradeoffs\" instead of",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1rl784l/ive_been_using_explain_the_tradeoffs_instead_of/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Stop asking ChatGPT to make decisions for you.</p> Ask it: <strong>&quot;What are the tra..."
