@@ -1,6 +1,36 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "Add this one line = ChatGPT stops guessing",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1s6q91w/add_this_one_line_chatgpt_stops_guessing/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Try this:</p> “List important unknowns before answering. Do not assume missing informatio..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "5 Prompting Rules I always Follow",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1s7b9z4/5_prompting_rules_i_always_follow/",
+    "desc": "<!-- SC_OFF --><div class=\"md\"><ol> <li>The Anchor Technique(Order Matters!)</li> </ol> We’ve all heard of recency bias,..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 41945416)",
+    "url": "https://civitai.com/images/41945416",
+    "desc": "Prompt: detailed background, shiny skin, posing, rating safe, <lora:watanabe.pony:1>, watanabe, tsukihi,..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 41943838)",
+    "url": "https://civitai.com/images/41943838",
+    "desc": "Prompt: detailed background, shiny skin, posing, rating safe, <lora:watanabe.pony:1>, watanabe, shinobu,..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 46723163)",
+    "url": "https://civitai.com/images/46723163",
+    "desc": "Prompt: detailed background, shiny skin, posing, rating safe,  <lora:tottotonero.pony:1>, tottotonero,  rosa,  half-closed eyes,..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Most of the prompt engineering advice on LinkedIn ",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1s68eie/most_of_the_prompt_engineering_advice_on_linkedin/",
     "desc": "<!-- SC_OFF --><div class=\"md\">just read this medium piece by Aakash Gupta, he goes through 1,500 academic papers on pro..."
