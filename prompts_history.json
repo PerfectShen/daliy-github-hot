@@ -1,6 +1,42 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "i made Claude be my annoying accountability partne",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1sj42kx/i_made_claude_be_my_annoying_accountability/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">not a gentle accountability partner.</p> an annoying one. specifically. that was the prom..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "i asked ChatGPT to interview me before every task.",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1sjrssm/i_asked_chatgpt_to_interview_me_before_every_task/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">stumbled into this by accident.</p> was working on something complicated. frustrated. typ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "I stopped collecting prompts and started chaining ",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1sjboy7/i_stopped_collecting_prompts_and_started_chaining/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I used to collect prompts like crazy.</p> Had a doc full of them. Probably 100+ at some p..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 127134407)",
+    "url": "https://civitai.com/images/127134407",
+    "desc": "Prompt: wc_painting, watercolor, traditional media, watercolor (medium), paper texture, soft edges, color bleeding, transparent ..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 127134404)",
+    "url": "https://civitai.com/images/127134404",
+    "desc": "Prompt: wc_painting, watercolor, traditional media, watercolor (medium), paper texture, soft edges, color bleeding, transparent ..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 127134403)",
+    "url": "https://civitai.com/images/127134403",
+    "desc": "Prompt: wc_painting, watercolor, traditional media, watercolor (medium), paper texture, soft edges, color bleeding, transparent ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Stop Asking GPT for Lists — Use This Prompt to Gen",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1siy0x2/stop_asking_gpt_for_lists_use_this_prompt_to/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Most people use AI to generate content. That’s the wrong layer. This prompt forces the mo..."
