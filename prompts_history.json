@@ -1,6 +1,36 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "AI tools/prompts for preparing for bachelor thesis",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1tkxrsq/ai_toolsprompts_for_preparing_for_bachelor_thesis/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Hey, not sure if this is the right place to ask, but I’ll give it a shot.</p> I handed in..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "prompt for YouTube script outlines - actually impr",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1tkfot0/prompt_for_youtube_script_outlines_actually/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">been experimenting with using AI to generate script outlines before I write anything myse..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 131489330)",
+    "url": "https://civitai.com/images/131489330",
+    "desc": "Prompt: A petition for Civitai to include the smug/smirking emoji as a reaction along with the thumbs up / heart / laugh /cry em..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 131441193)",
+    "url": "https://civitai.com/images/131441193",
+    "desc": "Prompt: Create a photorealistic anime painting of a swirling gust of water and light that fills the air, with a majestic cat sil..."
+  },
+  {
+    "source": "🎨 Midjourney/SD (Civitai)",
+    "title": "今日热图 (ID: 131441069)",
+    "url": "https://civitai.com/images/131441069",
+    "desc": "Prompt: Highly detailed, professional photography, The illuminated silhouette of a delicate fairy, sitting with a defeated postu..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "This is the most useful thing I've found for getti",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1tjdl2g/this_is_the_most_useful_thing_ive_found_for/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Stop asking it for answers. Ask it to steelman your problem first.</p> <pre><code>Don't a..."
