@@ -1,6 +1,24 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "Batch create text to image generation",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1u5nxbp/batch_create_text_to_image_generation/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I’m trying to find a better workflow for batch text to image generation.</p> My goal is t..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "ChatGPT Reoccurring flaw",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1u5mjpi/chatgpt_reoccurring_flaw/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I work on a project established the guidelines for the prompting then mid project it star..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Amanda - A Cross-Model Persona That Maintains Cohe",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1u5q09b/amanda_a_crossmodel_persona_that_maintains/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I'm developing this prompt as a pedagogical tool for studying persona behavioral continui..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Double fact check (0 hallucination)",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1u4ub1x/double_fact_check_0_hallucination/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Copy paste any end of the conversation and it's... you gonna see it </p> Prompt:</p> Do n..."
