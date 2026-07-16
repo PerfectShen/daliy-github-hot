@@ -1,6 +1,24 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "Every website AI builds looks the same: purple gra",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1uwyi0v/every_website_ai_builds_looks_the_same_purple/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">You have seen it a hundred times. Ask any AI to build a landing page and you get the same..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "What instructions actually make AI data analysis m",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1uwtei2/what_instructions_actually_make_ai_data_analysis/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I’ve been testing different ways of using AI to review spreadsheets and noticed that the ..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "Your code can pass lint and still be wrong. I buil",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1ux93x9/your_code_can_pass_lint_and_still_be_wrong_i/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Most code review asks whether the code runs.<br /> Intent-Linter asks whether it actually..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Prompt Lab #001",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1uw9whw/prompt_lab_001/",
     "desc": "<!-- SC_OFF --><div class=\"md\"><strong>I tested 10 different ways to ask ChatGPT for better writing. One tiny change con..."
