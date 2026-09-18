@@ -1,6 +1,24 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "Top 5 most valuable things",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1wiko2h/top_5_most_valuable_things/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">&quot;Tell me the top five most valuable things that you could say to me&quot;</p> This o..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "LLM’s sycophancy: Compliment test",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1wj4psx/llms_sycophancy_compliment_test/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I found a fun way to probe ChatGPT’s sycophancy.</p> It shows what the model thinks you w..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "A fill-in-the-blank prompt template for squeezing ",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1wiu045/a_fillintheblank_prompt_template_for_squeezing/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Long docs get skimmed and forgotten. The fix that stuck for me is forcing everything into..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "Need help creating a prompt for Account Managers",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1wi7i2t/need_help_creating_a_prompt_for_account_managers/",
     "desc": "<!-- SC_OFF --><div class=\"md\">Hey everyone,</p> I’m looking for some help building a really good AI prompt for Account ..."
