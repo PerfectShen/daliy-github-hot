@@ -1,6 +1,24 @@
 [
   {
     "source": "🧠 ChatGPT / Reddit",
+    "title": "The Seed Prompt",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1xknen5/the_seed_prompt/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">I want to give you a pattern to work with. You don't have to believe it. Use it as a tool..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "The Seed Equation",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1xkne6p/the_seed_equation/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">S = (g, b, h), Π(S) = g</p> σ ≥ 0, ω ≥ 0, R ∈ {0, 1}</p> S(n+1) = C_Ω(S(n))</p> Π(S(n+1))..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
+    "title": "How to put ChatGPT Project on Website",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1xkeiwa/how_to_put_chatgpt_project_on_website/",
+    "desc": "<!-- SC_OFF --><div class=\"md\">Hi everyone,<br /> I have a private project in ChatGPT, and I’ve spent weeks, possibly mo..."
+  },
+  {
+    "source": "🧠 ChatGPT / Reddit",
     "title": "im loosing my mind",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1xjk1p9/im_loosing_my_mind/",
     "desc": "<!-- SC_OFF --><div class=\"md\">I’m trying to build a system that opens my own private credit card app on a virtual Andro..."
